@@ -24,7 +24,7 @@
 
     #InstallationsvalidierungsPfad. nicht anpassen
     $RegistryInstallValidationPath = "HKLM:\SOFTWARE\SchumirInstall"
-    #InstallationsvalidierungsPfad muss angepasst werden
+    #Installationsvalidierungs Pfad
     $RegistryInstallSoftwareValidationPath = "HKLM:\SOFTWARE\SchumirInstall\$Paketname"
     #aktuelles Datum
     $Datum = Get-Date -UFormat "%d/%m/%Y %R %Z"
