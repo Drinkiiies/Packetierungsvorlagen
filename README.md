@@ -1,2 +1,2 @@
 # Packetierungsvorlagen
-Suggestions for Softwaredeployment 
+Suggestions for Softwaredeployment for InTune
