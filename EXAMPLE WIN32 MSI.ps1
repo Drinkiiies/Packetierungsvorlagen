@@ -56,6 +56,6 @@
 #START PROGRAM
 
 #Wait ZWINGEND nötig. Alternativ pipe auf out-null
-(Start-Process -Wait "$($PSScriptRoot)\30B712C\setup.msi" -ArgumentList "/qn").ExitCode
+(Start-Process -Wait "$($PSScriptRoot)\setup.msi" -ArgumentList "/qn").ExitCode
 
 #END PROGRAM
