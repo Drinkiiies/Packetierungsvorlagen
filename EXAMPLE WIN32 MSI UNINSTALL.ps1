@@ -29,5 +29,7 @@ If((test-path $RegistryInstallSoftwareValidationPath))
 
 #START PROGRAM
 #Deinstallation. Code muss ausgelesen werden. Nirsoft Uninstallview hilft hier
-Start-Process -Wait msiexec "{2A2B7611-A26E-452F-9C7B-759BD8FEABA9}" -ArgumentList "/x /qn"
+
+(Start-Process -Wait msiexec -ArgumentList "/x {7BFF4649-4140-4016-B02F-F4F5830B712C} /qn").ExitCode
+
 #END PROGRAM
